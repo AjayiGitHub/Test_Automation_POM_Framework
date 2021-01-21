@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="6" started-at="2020-10-15T15:38:58 WAT" finished-at="2020-10-15T15:38:58 WAT">
+    <groups>
+    </groups>
+    <test name="Surefire test" duration-ms="6" started-at="2020-10-15T15:38:58 WAT" finished-at="2020-10-15T15:38:58 WAT">
+      <class name="com.crm.skycleon.testcases.AppTest">
+        <test-method status="PASS" signature="testApp()[pri:0, instance:testApp(com.crm.skycleon.testcases.AppTest)]" name="testApp" duration-ms="0" started-at="2020-10-15T15:38:58 WAT" finished-at="2020-10-15T15:38:58 WAT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testApp -->
+      </class> <!-- com.crm.skycleon.testcases.AppTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

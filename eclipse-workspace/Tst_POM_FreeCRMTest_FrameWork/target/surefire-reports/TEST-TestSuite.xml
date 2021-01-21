@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="25.422" tests="25" errors="0" skipped="21" failures="3">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_241.jdk/Contents/Home/jre/lib"/>
+    <property name="java.vm.version" value="25.241-b07"/>
+    <property name="gopherProxySet" value="false"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="/Users/josephajayi/eclipse-workspace/Tst_POM_FreeCRMTest_FrameWork"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=":"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.country" value="NG"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/Users/josephajayi/eclipse-workspace/Tst_POM_FreeCRMTest_FrameWork"/>
+    <property name="java.runtime.version" value="1.8.0_241-b07"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_241.jdk/Contents/Home/jre/lib/endorsed"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.io.tmpdir" value="/var/folders/j4/j04gn4bj1dl177nd39f_c1h80000gn/T/"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="classworlds.conf" value="/Users/josephajayi/eclipse-workspace/.metadata/.plugins/org.eclipse.m2e.launching/launches/m2conf8283919454025537576.tmp"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/josephajayi/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.15.4"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="user.home" value="/Users/josephajayi"/>
+    <property name="user.timezone" value="Africa/Lagos"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="josephajayi"/>
+    <property name="java.class.path" value="/Applications/Eclipse EE.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_1.14.0.20191209-1923/jars/plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_241.jdk/Contents/Home/jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B install"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_241"/>
+    <property name="java.ext.dirs" value="/Users/josephajayi/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_241.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
+    <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_241.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_241.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_241.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_241.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_241.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_241.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_241.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_241.jdk/Contents/Home/jre/classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="/Users/josephajayi/eclipse-workspace/Tst_POM_FreeCRMTest_FrameWork/EMBEDDED"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase name="setUp" classname="com.crm.skycleon.testcases.ContactsPageTest" time="21.915">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//input[@name=&apos;email&apos;]&quot;}&#10;  (Session info: chrome=86.0.4240.80)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Josephs-MacBoo.local&apos;, ip: &apos;127.0.0.1&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.4&apos;, java.version: &apos;1.8.0_241&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.80, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/j4/j04gn4bj1dl...}, goog:chromeOptions: {debuggerAddress: localhost:62047}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 87bdda476d06fdffcdb0df3d01b7c825&#10;*** Element info: {Using=xpath, value=//input[@name=&apos;email&apos;]}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//input[@name='email']"}
+  (Session info: chrome=86.0.4240.80)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Josephs-MacBoo.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.4', java.version: '1.8.0_241'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.80, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/j4/j04gn4bj1dl...}, goog:chromeOptions: {debuggerAddress: localhost:62047}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 87bdda476d06fdffcdb0df3d01b7c825
+*** Element info: {Using=xpath, value=//input[@name='email']}
+	at com.crm.skycleon.testcases.ContactsPageTest.setUp(ContactsPageTest.java:47)
+</failure>
+    <system-err><![CDATA[Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 44195
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1602772715.486][WARNING]: This version of ChromeDriver has not been tested with Chrome version 86.
+Oct 15, 2020 3:38:35 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="validateCreateNewContact" classname="com.crm.skycleon.testcases.ContactsPageTest" time="0">
+    <skipped message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//input[@name=&apos;email&apos;]&quot;}&#10;  (Session info: chrome=86.0.4240.80)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Josephs-MacBoo.local&apos;, ip: &apos;127.0.0.1&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.4&apos;, java.version: &apos;1.8.0_241&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.80, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/j4/j04gn4bj1dl...}, goog:chromeOptions: {debuggerAddress: localhost:62047}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 87bdda476d06fdffcdb0df3d01b7c825&#10;*** Element info: {Using=xpath, value=//input[@name=&apos;email&apos;]}"/>
+  </testcase>
+  <testcase name="tearDown" classname="com.crm.skycleon.testcases.ContactsPageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="com.crm.skycleon.testcases.HomePageTest" time="1.444">
+    <failure message="unknown error: net::ERR_INTERNET_DISCONNECTED&#10;  (Session info: chrome=86.0.4240.80)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Josephs-MacBoo.local&apos;, ip: &apos;127.0.0.1&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.4&apos;, java.version: &apos;1.8.0_241&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.80, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/j4/j04gn4bj1dl...}, goog:chromeOptions: {debuggerAddress: localhost:62185}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: bf131d67ca042184592b0e9f6a004b20" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: 
+unknown error: net::ERR_INTERNET_DISCONNECTED
+  (Session info: chrome=86.0.4240.80)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Josephs-MacBoo.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.4', java.version: '1.8.0_241'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.80, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/j4/j04gn4bj1dl...}, goog:chromeOptions: {debuggerAddress: localhost:62185}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: bf131d67ca042184592b0e9f6a004b20
+	at com.crm.skycleon.testcases.HomePageTest.setUp(HomePageTest.java:42)
+</failure>
+    <system-err><![CDATA[Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 18163
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1602772735.836][WARNING]: This version of ChromeDriver has not been tested with Chrome version 86.
+Oct 15, 2020 3:38:55 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="setUp" classname="com.crm.skycleon.testcases.HomePageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="com.crm.skycleon.testcases.HomePageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="com.crm.skycleon.testcases.HomePageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="verifyHomePageTitleTest" classname="com.crm.skycleon.testcases.HomePageTest" time="0">
+    <skipped message="unknown error: net::ERR_INTERNET_DISCONNECTED&#10;  (Session info: chrome=86.0.4240.80)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Josephs-MacBoo.local&apos;, ip: &apos;127.0.0.1&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.4&apos;, java.version: &apos;1.8.0_241&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.80, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/j4/j04gn4bj1dl...}, goog:chromeOptions: {debuggerAddress: localhost:62185}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: bf131d67ca042184592b0e9f6a004b20"/>
+  </testcase>
+  <testcase name="teardown" classname="com.crm.skycleon.testcases.HomePageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="teardown" classname="com.crm.skycleon.testcases.HomePageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="teardown" classname="com.crm.skycleon.testcases.HomePageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="teardown" classname="com.crm.skycleon.testcases.HomePageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="verifyUsernameOnHomePageTest" classname="com.crm.skycleon.testcases.HomePageTest" time="0">
+    <skipped message="unknown error: net::ERR_INTERNET_DISCONNECTED&#10;  (Session info: chrome=86.0.4240.80)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Josephs-MacBoo.local&apos;, ip: &apos;127.0.0.1&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.4&apos;, java.version: &apos;1.8.0_241&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.80, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/j4/j04gn4bj1dl...}, goog:chromeOptions: {debuggerAddress: localhost:62185}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: bf131d67ca042184592b0e9f6a004b20"/>
+  </testcase>
+  <testcase name="verifyContactsLinkTest" classname="com.crm.skycleon.testcases.HomePageTest" time="0">
+    <skipped message="unknown error: net::ERR_INTERNET_DISCONNECTED&#10;  (Session info: chrome=86.0.4240.80)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Josephs-MacBoo.local&apos;, ip: &apos;127.0.0.1&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.4&apos;, java.version: &apos;1.8.0_241&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.80, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/j4/j04gn4bj1dl...}, goog:chromeOptions: {debuggerAddress: localhost:62185}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: bf131d67ca042184592b0e9f6a004b20"/>
+  </testcase>
+  <testcase name="verifyCalendarLinkTest" classname="com.crm.skycleon.testcases.HomePageTest" time="0">
+    <skipped message="unknown error: net::ERR_INTERNET_DISCONNECTED&#10;  (Session info: chrome=86.0.4240.80)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Josephs-MacBoo.local&apos;, ip: &apos;127.0.0.1&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.4&apos;, java.version: &apos;1.8.0_241&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.80, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/j4/j04gn4bj1dl...}, goog:chromeOptions: {debuggerAddress: localhost:62185}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: bf131d67ca042184592b0e9f6a004b20"/>
+  </testcase>
+  <testcase name="setUp" classname="com.crm.skycleon.testcases.LoginPageTest" time="1.379">
+    <failure message="unknown error: net::ERR_INTERNET_DISCONNECTED&#10;  (Session info: chrome=86.0.4240.80)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Josephs-MacBoo.local&apos;, ip: &apos;127.0.0.1&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.4&apos;, java.version: &apos;1.8.0_241&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.80, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/j4/j04gn4bj1dl...}, goog:chromeOptions: {debuggerAddress: localhost:62198}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: c49411e38a8d2e13fd6eee6d89fb7b14" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: 
+unknown error: net::ERR_INTERNET_DISCONNECTED
+  (Session info: chrome=86.0.4240.80)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Josephs-MacBoo.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.4', java.version: '1.8.0_241'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.80, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/j4/j04gn4bj1dl...}, goog:chromeOptions: {debuggerAddress: localhost:62198}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: c49411e38a8d2e13fd6eee6d89fb7b14
+	at com.crm.skycleon.testcases.LoginPageTest.setUp(LoginPageTest.java:29)
+</failure>
+    <system-err><![CDATA[Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 32146
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1602772737.204][WARNING]: This version of ChromeDriver has not been tested with Chrome version 86.
+Oct 15, 2020 3:38:57 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="setUp" classname="com.crm.skycleon.testcases.LoginPageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="com.crm.skycleon.testcases.LoginPageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="loginPageTitleTest" classname="com.crm.skycleon.testcases.LoginPageTest" time="0">
+    <skipped message="unknown error: net::ERR_INTERNET_DISCONNECTED&#10;  (Session info: chrome=86.0.4240.80)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Josephs-MacBoo.local&apos;, ip: &apos;127.0.0.1&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.4&apos;, java.version: &apos;1.8.0_241&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.80, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/j4/j04gn4bj1dl...}, goog:chromeOptions: {debuggerAddress: localhost:62198}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: c49411e38a8d2e13fd6eee6d89fb7b14"/>
+  </testcase>
+  <testcase name="tearDown" classname="com.crm.skycleon.testcases.LoginPageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="tearDown" classname="com.crm.skycleon.testcases.LoginPageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="tearDown" classname="com.crm.skycleon.testcases.LoginPageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="crmLogoImageTest" classname="com.crm.skycleon.testcases.LoginPageTest" time="0">
+    <skipped message="unknown error: net::ERR_INTERNET_DISCONNECTED&#10;  (Session info: chrome=86.0.4240.80)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Josephs-MacBoo.local&apos;, ip: &apos;127.0.0.1&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.4&apos;, java.version: &apos;1.8.0_241&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.80, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/j4/j04gn4bj1dl...}, goog:chromeOptions: {debuggerAddress: localhost:62198}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: c49411e38a8d2e13fd6eee6d89fb7b14"/>
+  </testcase>
+  <testcase name="loginTest" classname="com.crm.skycleon.testcases.LoginPageTest" time="0">
+    <skipped message="unknown error: net::ERR_INTERNET_DISCONNECTED&#10;  (Session info: chrome=86.0.4240.80)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Josephs-MacBoo.local&apos;, ip: &apos;127.0.0.1&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.4&apos;, java.version: &apos;1.8.0_241&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.80, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/j4/j04gn4bj1dl...}, goog:chromeOptions: {debuggerAddress: localhost:62198}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: c49411e38a8d2e13fd6eee6d89fb7b14"/>
+  </testcase>
+  <testcase name="testApp on testApp(com.crm.skycleon.testcases.AppTest)" classname="com.crm.skycleon.testcases.AppTest" time="0.432"/>
+</testsuite>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="FREE CRM Apllication Test Automation Test Suite">
+
+	<listeners>
+		<listener
+			class-name="com.crm.skycleon.extentReportListener.ExtentReporterListener" />
+	</listeners>
+
+	<test name="Free CRM App Test Cases">
+		<classes>
+			<class name="com.crm.skycleon.testcases.LoginPageTest"></class>
+			<class name="com.crm.skycleon.testcases.HomePageTest"></class>
+			<class name="com.crm.skycleon.testcases.ContactsPageTest"></class>
+		</classes>
+	</test>
+</suite>
+
+
+<!-- <?xml version="1.0" encoding="UTF-8"?> <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" 
+	[<!ENTITY raw_listeners SYSTEM "testng/_listener/raw_listeners_no_compact.xml">]> 
+	<suite name = "OSS Simple Test" configfailurepolicy = "continue"> <test name 
+	= "Simple upload and download" preserve-order = "true"> <classes> <class 
+	name = "com.jcloud.test.jss.object.s3.HttpOnlyTest"/> </classes> </test> 
+	&raw_listeners; </suite> -->

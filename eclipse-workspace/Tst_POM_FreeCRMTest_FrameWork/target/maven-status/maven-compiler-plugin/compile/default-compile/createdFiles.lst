@@ -1,0 +1,13 @@
+com/crm/skycleon/pages/CalendarPage.class
+com/crm/skycleon/pages/CasesPage.class
+com/crm/skycleon/pages/ContactsPage.class
+com/crm/skycleon/pages/DealsPage.class
+com/crm/skycleon/pages/HomePage.class
+com/crm/skycleon/pages/CallsPage.class
+com/crm/skycleon/pages/TasksPage.class
+com/crm/skycleon/pages/SignUpPage.class
+com/crm/skycleon/pages/App.class
+com/crm/skycleon/base/TestBase.class
+com/crm/skycleon/pages/DocumentsPage.class
+com/crm/skycleon/util/TestUtil.class
+com/crm/skycleon/pages/LoginPage.class
