@@ -1,0 +1,27 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 48.182 sec <<< FAILURE!
+testOne(tests.Tests)  Time elapsed: 2.201 sec  <<< FAILURE!
+org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: unknown error: net::ERR_INTERNET_DISCONNECTED
+  (Session info: chrome=85.0.4183.81)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Josephs-MacBoo.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.4', java.version: '1.8.0_241'
+Driver info: io.appium.java_client.AppiumDriver
+Capabilities {appActivity: com.google.android.apps.chr..., appPackage: com.android.chrome, browserName: chrome, databaseEnabled: false, desired: {browserName: chrome, deviceName: LG-M150, platformName: android, platformVersion: 7.0, udid: LGM1509362ee13}, deviceApiLevel: 24, deviceManufacturer: LGE, deviceModel: LG-M150, deviceName: LGM1509362ee13, deviceScreenDensity: 240, deviceScreenSize: 480x854, deviceUDID: LGM1509362ee13, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 1.5, platform: LINUX, platformName: ANDROID, platformVersion: 7.0, statBarHeight: 36, takesScreenshot: true, udid: LGM1509362ee13, viewportRect: {height: 756, left: 0, top: 36, width: 480}, warnings: {}, webStorageEnabled: false}
+Session ID: 0b964afe-2cb0-4ed1-b12d-42cc3fb4d37e
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)
+	at tests.Tests.testOne(Tests.java:13)
+
